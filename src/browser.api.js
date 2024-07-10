@@ -1,5 +1,5 @@
 import React from 'react'
-import { useBasepath, useStaticInfo } from 'react-static'
+import { useBasepath, useStaticInfo } from 'react-static-pro-max'
 import { BrowserRouter, StaticRouter, withRouter } from 'react-router-dom'
 
 const Location = withRouter(({ children, location }) => children(location))
