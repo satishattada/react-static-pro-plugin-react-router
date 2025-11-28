@@ -17,7 +17,7 @@ Make sure that you have _exactly_ the same version for `react-router-dom` as `re
 
 ```javascript
 export default {
-  plugins: ['react-static-plugin-react-router'],
+  plugins: ['react-static-plugin-pro-react-router'],
 }
 ```
 
@@ -29,7 +29,7 @@ export default {
 export default {
   plugins: [
     [
-      'react-static-plugin-react-router',
+      'react-static-plugin-pro-react-router',
       {
         RouterProps: {
           // These props will be passed to the underlying `Router` component

@@ -1,8 +1,6 @@
 import React from 'react'
 import { useBasepath, useStaticInfo } from 'react-static-pro-max'
-import { BrowserRouter, StaticRouter, withRouter } from 'react-router-dom'
-
-const Location = withRouter(({ children, location }) => children(location))
+import { BrowserRouter, StaticRouter } from 'react-router-dom'
 
 export default ({ RouterProps: userRouterProps = {} }) => ({
   Root: PreviousRoot => ({ children }) => {
@@ -31,9 +29,4 @@ export default ({ RouterProps: userRouterProps = {} }) => ({
       </PreviousRoot>
     )
   },
-  Routes: PreviousRoutes => props => (
-    <Location>
-      {location => <PreviousRoutes {...props} location={location} />}
-    </Location>
-  ),
 })
