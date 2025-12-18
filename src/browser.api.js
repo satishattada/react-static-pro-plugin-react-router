@@ -1,6 +1,6 @@
 import React from 'react'
 import { useBasepath, useStaticInfo } from 'react-static-pro-max'
-import { BrowserRouter, StaticRouter } from 'react-router-dom'
+import { BrowserRouter, StaticRouter } from 'react-router'
 
 export default ({ RouterProps: userRouterProps = {} }) => ({
   Root: PreviousRoot => ({ children }) => {

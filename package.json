@@ -1,6 +1,6 @@
 {
   "name": "react-static-pro-plugin-react-router",
-  "version": "2.0.21",
+  "version": "2.0.22",
   "description": "A React-Static plugin that adds react-router support for React Static",
   "main": "browser.api.js",
   "repository": "https://github.com/satishattada/react-static-pro-plugin-react-router.git",
@@ -18,7 +18,7 @@
     "react": "^16.9.0 || ^17.0.0 || ^18.0.0 || ^19.2.3",
     "react-router": "^7.10.1",
     "react-router-dom": "^7.10.1",
-    "react-static-pro-max": "^2.0.21"
+    "react-static-pro-max": "^2.0.22"
   },
   "devDependencies": {
     "@babel/cli": "^7.28.3",
@@ -28,6 +28,6 @@
     "react": "^19.2.3",
     "react-router": "^7.11.0",
     "react-router-dom": "^7.11.0",
-    "react-static-pro-max": "^2.0.21"
+    "react-static-pro-max": "^2.0.22"
   }
 }
